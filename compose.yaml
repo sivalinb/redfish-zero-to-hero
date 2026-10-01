@@ -1,0 +1,40 @@
+services:
+  app:
+    build: .
+    ports:
+    - 127.0.0.1:8521:8501
+    volumes:
+    - academy-progress:/app/.runtime
+  simulator:
+    build: .
+    command:
+    - python
+    - -m
+    - academy.server
+    - --mode
+    - redfish
+    - --port
+    - '8631'
+    - --container
+    ports:
+    - 127.0.0.1:8631:8631
+    healthcheck:
+      test:
+      - CMD
+      - python
+      - -c
+      - import urllib.request;urllib.request.urlopen('http://localhost:8631/health',timeout=2)
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  prometheus:
+    image: prom/prometheus:v3.15.0
+    volumes:
+    - ./examples/prometheus.yaml:/etc/prometheus/prometheus.yml:ro
+    ports:
+    - 127.0.0.1:9091:9090
+    depends_on:
+      simulator:
+        condition: service_healthy
+volumes:
+  academy-progress: {}

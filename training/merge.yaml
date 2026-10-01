@@ -1,0 +1,8 @@
+model_name_or_path: Qwen/Qwen3-1.7B-Base
+adapter_name_or_path: training/output/qwen3-router-lora
+template: qwen3_nothink
+finetuning_type: lora
+export_dir: training/output/router-merged
+export_size: 2
+export_device: cpu
+export_legacy_format: false

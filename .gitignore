@@ -1,0 +1,16 @@
+.venv/
+.runtime/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+training/output/
+training/data/baseline.json
+training/data/merged.json
+.streamlit/secrets.toml
+*.sqlite3*
+build/
+dist/
+*.egg-info/
+.DS_Store

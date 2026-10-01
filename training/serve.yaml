@@ -1,0 +1,6 @@
+model_name_or_path: training/output/router-merged
+template: qwen3_nothink
+infer_backend: huggingface
+trust_remote_code: false
+max_new_tokens: 128
+do_sample: false

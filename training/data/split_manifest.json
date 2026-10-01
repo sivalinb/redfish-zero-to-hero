@@ -1,0 +1,326 @@
+[
+  {
+    "family": "teach-27",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Turn discovery into a Python loop"
+  },
+  {
+    "family": "teach-5",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Reachability has several layers"
+  },
+  {
+    "family": "teach-11",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Collections and capability discovery"
+  },
+  {
+    "family": "teach-16",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Sensor units and location"
+  },
+  {
+    "family": "teach-26",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Firmware management is a lifecycle"
+  },
+  {
+    "family": "teach-12",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Read installed capacity"
+  },
+  {
+    "family": "teach-20",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Sensors, inventory, and logs across IPMI"
+  },
+  {
+    "family": "teach-15",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain State and health answer different questions"
+  },
+  {
+    "family": "teach-10",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Systems, chassis, and managers"
+  },
+  {
+    "family": "teach-14",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Optional and missing inventory"
+  },
+  {
+    "family": "teach-19",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Polling and event subscriptions"
+  },
+  {
+    "family": "teach-22",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Permissions and an action preview"
+  },
+  {
+    "family": "teach-9",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Start at the service root"
+  },
+  {
+    "family": "teach-29",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Sessions, least privilege, and audit"
+  },
+  {
+    "family": "teach-24",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Active versus pending BIOS settings"
+  },
+  {
+    "family": "teach-6",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain An address and a resource path"
+  },
+  {
+    "family": "teach-25",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Tasks describe unfinished work"
+  },
+  {
+    "family": "teach-0",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain A server answers requests"
+  },
+  {
+    "family": "teach-31",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Choose a response for the failed layer"
+  },
+  {
+    "family": "teach-13",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain GB, GiB, count, and reading"
+  },
+  {
+    "family": "teach-18",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain An event log records what happened"
+  },
+  {
+    "family": "teach-2",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Power, cooling, and the rack"
+  },
+  {
+    "family": "teach-17",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Evidence beats one-field diagnosis"
+  },
+  {
+    "family": "teach-21",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Power is an action with consequences"
+  },
+  {
+    "family": "teach-3",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Host operating system versus BMC"
+  },
+  {
+    "family": "teach-30",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Connect hardware, metrics, and logs"
+  },
+  {
+    "family": "teach-4",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain IPMI and Redfish are interfaces"
+  },
+  {
+    "family": "teach-28",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain Bound retries and concurrency"
+  },
+  {
+    "family": "teach-32",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain A hero verifies and explains limits"
+  },
+  {
+    "family": "teach-8",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain JSON objects, arrays, and values"
+  },
+  {
+    "family": "teach-23",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain Boot overrides and one-time intent"
+  },
+  {
+    "family": "teach-1",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain CPU, memory, and storage"
+  },
+  {
+    "family": "teach-7",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain Methods and status codes"
+  },
+  {
+    "family": "lab-9",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Python fleet automation"
+  },
+  {
+    "family": "lab-3",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Discover the resource map"
+  },
+  {
+    "family": "lab-10",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for A rack incident from evidence to recovery"
+  },
+  {
+    "family": "lab-8",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for BIOS, firmware, and asynchronous work"
+  },
+  {
+    "family": "lab-0",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for What is a server?"
+  },
+  {
+    "family": "lab-7",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Power and boot actions"
+  },
+  {
+    "family": "lab-1",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for The management computer inside the server"
+  },
+  {
+    "family": "lab-2",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Addresses, requests, and JSON"
+  },
+  {
+    "family": "lab-4",
+    "split": "validation",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Inventory with meaningful units"
+  },
+  {
+    "family": "lab-5",
+    "split": "validation",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Health, temperature, power, and fans"
+  },
+  {
+    "family": "lab-6",
+    "split": "validation",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Logs, events, and IPMI comparisons"
+  },
+  {
+    "family": "clarify-2",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Fix it"
+  },
+  {
+    "family": "clarify-7",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Help"
+  },
+  {
+    "family": "clarify-1",
+    "split": "train",
+    "label": "clarify",
+    "seed": "What does that mean?"
+  },
+  {
+    "family": "clarify-8",
+    "split": "train",
+    "label": "clarify",
+    "seed": "What about it?"
+  },
+  {
+    "family": "clarify-3",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Tell me something"
+  },
+  {
+    "family": "clarify-0",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Explain the thing"
+  },
+  {
+    "family": "clarify-6",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Go on"
+  },
+  {
+    "family": "clarify-4",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Which one should I use?"
+  },
+  {
+    "family": "clarify-9",
+    "split": "validation",
+    "label": "clarify",
+    "seed": "Do that"
+  },
+  {
+    "family": "clarify-5",
+    "split": "validation",
+    "label": "clarify",
+    "seed": "I am lost"
+  }
+]
